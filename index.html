@@ -66,7 +66,40 @@
           </div>
 
           <div style="margin-top: 2.5em;" class="row">
-
+            <div class="col-md-8 col-md-offset-2">
+              <h3 style="text-align: center;
+                border-bottom: 1px solid black;
+                padding-bottom: .5em">
+                Who am I?
+              </h3>
+              <p style="font-size: 18px;
+                margin-bottom: 2em;
+                margin-top: 1em">
+                I'm a student studying Computer Science at the University of Pennsylvania.
+                I love learning, technology, and sports. Eventually I want to be a Venture Capitalist. Before that, I want to be an entrepreneur. I'm hardworking, smart, and analytical. I can be reached by email at <a href="mailto:michaelboydbrowne@gmail.com">michaelboydbrowne@gmail.com</a> or phone at <a href="tel:9173489913">(917) 348-9913.</a>
+              </p>
+              <h3 style="text-align: center;
+                border-bottom: 1px solid black;
+                padding-bottom: .5em">
+                Projects & Work Experience
+              </h3>
+              <div class="row" style="margin-top: 2em;">
+                <div class="col-md-6" style="text-align: center;">
+                  <img src="http://placehold.it/200x200" style="width: 200px; height: 200px">
+                </div>
+                <div class="col-md-6" style="text-align:center">
+                  <img src="http://placehold.it/200x200">
+                </div>
+              </div>
+              <div class="row" style="margin-top: 2em;">
+                <div class="col-md-6" style="text-align: center">
+                  <img src="http://placehold.it/200x200">
+                </div>
+                <div class="col-md-6" style="text-align:center">
+                  <img src="http://placehold.it/200x200">
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -82,11 +115,8 @@
       $(document).ready(function(){
           $("div div a div").hover(function(){
               $(this).css({"background-color": "white", "color": "black"});
-              // $(this).css("color", "black");
-              console.log("I sense a hover");
               }, function() {
-              $(this).css("background-color", "black");
-              $(this).css("color", "white");
+              $(this).css({"background-color": "black", "color": "white"});
           });
       });
     </script>

@@ -67,10 +67,10 @@
 
           <div style="margin-top: 2.5em;" class="row">
             <div class="col-md-10 col-md-offset-1">
-              <h3 style="text-align: center">
-                Feel free to check out my presence on other sites.
+              <h3 style="text-align: center; border-bottom: 1px solid black; padding-bottom: .5em">
+                Feel free to check out my profiles on other sites.
               </h3>
-              <ul style="font-size: 20px; margin-top: 2em">
+              <ul style="font-size: 20px; margin-top: 1.5em">
                 <li>Facebook:
                   <a href="http://facebook.com/mike.boyd.browne">
                     mike.boyd.browne
@@ -78,7 +78,7 @@
                 </li>
                 <li style="margin-top: .5em">Twitter:
                   <a href="http://twitter.com/MikeBoydBrowne">
-                    MikeBoydBrowne
+                    @mikeboydbrowne
                   </a>
                 </li>
                 <li style="margin-top: .5em">Linkedin:
@@ -113,11 +113,8 @@
       $(document).ready(function(){
           $("div div a div").hover(function(){
               $(this).css({"background-color": "white", "color": "black"});
-              // $(this).css("color", "black");
-              console.log("I sense a hover");
               }, function() {
-              $(this).css("background-color", "black");
-              $(this).css("color", "white");
+              $(this).css({"background-color": "black", "color": "white"});
           });
       });
     </script>
