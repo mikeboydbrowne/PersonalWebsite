@@ -93,16 +93,17 @@
                 Projects & Work Experience
               </h3>
 
+<!-- data-toggle="modal" data-target="#bamlModal"  -->
 
               <div class="row" style="margin-top: 2em;">
-                <div class="col-md-6" style="text-align: center;" data-toggle="modal" data-target="#bamlModal">
+                <div class="col-md-6" style="text-align: center;" data-toggle="popover" title="Summer Analyst - Bank of America Merril Lynch" data-content="During the summer between my Junior and Senior year I worked as an Analyst in the Mergers and Acquisitions group.">
                   <img src="BAML_logo.png" style="width: 200px; height: 200px">
                   <div>
                     <h3>Summer Analyst</h3>
                   </div>
                 </div>
 
-                <div class="modal fade" id="bamlModal" tabindex="-1" role="dialog" aria-labelledby="bamlModalLabel" aria-hidden="true">
+<!--                 <div class="modal fade" id="bamlModal" tabindex="-1" role="dialog" aria-labelledby="bamlModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -120,7 +121,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
 
 
                 <div class="col-md-6" style="text-align:center" data-toggle="modal" data-target="#rentControlModal">
@@ -130,7 +131,7 @@
                   </div>
                 </div>
 
-                <div class="modal fade" id="rentControlModal" tabindex="-1" role="dialog" aria-labelledby="rentControlModalLabel" aria-hidden="true">
+<!--                 <div class="modal fade" id="rentControlModal" tabindex="-1" role="dialog" aria-labelledby="rentControlModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -148,7 +149,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
 
 
               </div>
@@ -162,7 +163,7 @@
                   </div>
                 </div>
 
-                <div class="modal fade" id="venmoTerminalModal" tabindex="-1" role="dialog" aria-labelledby="venmoTerminalModalLabel" aria-hidden="true">
+<!--                 <div class="modal fade" id="venmoTerminalModal" tabindex="-1" role="dialog" aria-labelledby="venmoTerminalModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -180,7 +181,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
 
 
                 <div class="col-md-6" style="text-align:center" data-toggle="modal" data-target="#fullstackModal">
@@ -190,7 +191,7 @@
                   </div>
                 </div>
 
-                <div class="modal fade" id="fullstackModal" tabindex="-1" role="dialog" aria-labelledby="fullstackModalLabel" aria-hidden="true">
+<!--                 <div class="modal fade" id="fullstackModal" tabindex="-1" role="dialog" aria-labelledby="fullstackModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -208,7 +209,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
 
 
               </div>
@@ -221,7 +222,7 @@
               <p style="font-size: 18px;
                 margin-bottom: 2em;
                 margin-top: 1em">
-                I'm very lucky to have parents that value education above all other things. I'm a graduate of the Saint David's School and Regis High School, both of which are located in Manhattan, NY. I'm now a rising Senior (wow) at the University of Pennsylvania in Philadelphia, PA.
+                I'm very lucky to have parents that value education above all other things. I'm a graduate of the Saint David's School and Regis High School, both of which are located in Manhattan, NY. I'm now a rising senior at the University of Pennsylvania in Philadelphia, PA.
               </p>
 
               <h3 style="text-align: center;
@@ -259,6 +260,8 @@
               }, function() {
               $(this).css({"background-color": "black", "color": "white"});
           });
+
+          $('[data-toggle="popover"]').popover({trigger: 'hover','placement': 'bottom'});
       });
     </script>
 
